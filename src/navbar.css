@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+  }
+  
+  .navbar__logo {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .navbar__menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar__menu__item {
+    margin-right: 10px;
+  }
+  
+  .navbar__menu__link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar__menu__link:hover {
+    color: #ddd;
+  }
+  
